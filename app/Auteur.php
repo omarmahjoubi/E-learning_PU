@@ -8,13 +8,5 @@ class Auteur extends Model
 {
     public $timestamps = false;
     protected $fillable = ['name'] ;
-
-    public function creer($name)
-    {
-        $this->name = $name ;
-    }
-
-    public function lister() {
-        return Auteur::all();
-    }
+    
 }
