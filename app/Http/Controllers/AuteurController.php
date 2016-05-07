@@ -7,7 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Requests;
 use Illuminate\Support\Facades\Input;
 
-class ReportsController extends Controller
+class AuteurController extends Controller
 {
 
 public function add(Request $request)
