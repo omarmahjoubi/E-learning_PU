@@ -15,6 +15,7 @@ public function add(Request $request)
   $auteur = new Auteur();
   $auteur->name = $request->name;
   $auteur->save();
+  return back();
 }
 
 public function delete(Auteur $auteur)
